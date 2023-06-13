@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fishka-twa/static/css/main.1397706e.css",
+    "main.js": "/fishka-twa/static/js/main.320c06a4.js",
+    "static/js/787.287a5bf3.chunk.js": "/fishka-twa/static/js/787.287a5bf3.chunk.js",
+    "static/media/Framework7Icons-Regular.ttf": "/fishka-twa/static/media/Framework7Icons-Regular.4b8a7d10ca32f3125696.ttf",
+    "static/media/Framework7Icons-Regular.woff": "/fishka-twa/static/media/Framework7Icons-Regular.286bd8fcebb566a45853.woff",
+    "static/media/Framework7Icons-Regular.woff2": "/fishka-twa/static/media/Framework7Icons-Regular.852655880420bcb785bd.woff2",
+    "index.html": "/fishka-twa/index.html",
+    "main.1397706e.css.map": "/fishka-twa/static/css/main.1397706e.css.map",
+    "main.320c06a4.js.map": "/fishka-twa/static/js/main.320c06a4.js.map",
+    "787.287a5bf3.chunk.js.map": "/fishka-twa/static/js/787.287a5bf3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1397706e.css",
+    "static/js/main.320c06a4.js"
+  ]
+}
