@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { App, View } from "framework7-react";
+import routes from "./routes";
 
-function App() {
+const MyApp = () => {
+  const WebApp = window.Telegram.WebApp;
+
+  const theme =
+    WebApp.platform === "macos" || WebApp.platform === "ios" ? "ios" : "md";
+  const dark = window.Telegram.WebApp.colorScheme === "dark";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <App theme={theme} routes={routes} dark={dark}>
+      <View main className="safe-areas" url="/" />
+    </App>
   );
-}
+};
 
-export default App;
+export default MyApp;
